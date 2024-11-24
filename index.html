@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot con busqueda de vuelo</title>
+    <title>Chatbot de Viajes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1 class="text-center">Chatbot con busqueda de vuelo</h1>
-        <div id="chatbox" class="mb-3"></div>
+    <div class="container py-5">
+        <div class="text-center mb-4">
+            <h1 class="title">✈️ Tu Asistente de Viajes</h1>
+            <p class="subtitle">Encuentra vuelos y destinos al instante</p>
+        </div>
+        <div id="chatbox" class="chatbox mb-3 shadow-sm"></div>
         <div class="input-group">
             <input type="text" id="userInput" class="form-control" placeholder="Escribe tu mensaje...">
             <div class="input-group-append">
@@ -23,4 +29,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/appfly.js"></script>
 </body>
+
 </html>
