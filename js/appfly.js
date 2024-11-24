@@ -1,6 +1,6 @@
  const apiKey = 'API_KEY_OPENAI'; // Clave API para OpenAI
 
-        // Variables de la API de vuelos
+        // Variables de la API de vuelo
         const flightApiKey = 'API_KEY';
         const flightApiSecret = 'API_SECRET';
         const flightAuthUrl = 'https://test.api.amadeus.com/v1/security/oauth2/token';
