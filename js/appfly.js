@@ -25,7 +25,7 @@
 
         // Función para convertir de euros a dólares
         function convertEurosToDollars(euros) {
-            const conversionRate = 1.06; // Tasa de conversión de EUR a USD
+            const conversionRate = 1.06; // Tasa de conversión de EUR a USD$
             return euros * conversionRate;
         }
 
