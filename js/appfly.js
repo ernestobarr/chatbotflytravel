@@ -1,8 +1,8 @@
- const apiKey = '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'; // Clave API para OpenAI
+ const apiKey = 'API_KEY_OPENAI'; // Clave API para OpenAI
 
         // Variables de la API de vuelos
-        const flightApiKey = 'o3VEJ6PYEOnZVqVdtxDabwUJD7XaBC8z';
-        const flightApiSecret = 'aCqkXWtiDotm2ZcE';
+        const flightApiKey = 'API_KEY';
+        const flightApiSecret = 'API_SECRET';
         const flightAuthUrl = 'https://test.api.amadeus.com/v1/security/oauth2/token';
         const flightOffersUrl = 'https://test.api.amadeus.com/v2/shopping/flight-offers';
 
